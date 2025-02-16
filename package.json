@@ -1,16 +1,16 @@
 {
-  "name": "QUEEN_CHARITY",
+  "name": "QUEEN-CHARITY",
   "version": "2.5.0",
-  "description": "cool WhatsApp bot created by CASEYRHODES (inspired by  CASEYRHODES TECH).",
+  "description": "cool WhatsApp bot created by haki (inspired by star king).",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "run": "pm2 start . --deep-monitoring --attach --name QUEEN_CHARITY || node .",
-    "alya": "pm2 start . --deep-monitoring --attach --name QUEEN_CHARITY || node .",
-    "start": "pm2 start . --attach --name QUEEN_CHARITY",
-    "stop": "pm2 stop QUEEN_CHARITY",
-    "heroku-postbuild": "git clone https://github.com/caseyweb/QUEEN_CHARITY temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-    "fis-heroku-postbuild": "git clone https://github.com/caseyweb/QUEEN_CHARITY.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+    "run": "pm2 start . --deep-monitoring --attach --name QUEEN-CHARITY || node .",
+    "alya": "pm2 start . --deep-monitoring --attach --name QUEEN-CHARITY || node .",
+    "start": "pm2 start . --attach --name QUEEN-CHARITY",
+    "stop": "pm2 stop QUEEN-CHARITY",
+    "heroku-postbuild": "git clone https://github.com/caseyweb/QUEEN-CHARITY temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+    "fis-heroku-postbuild": "git clone https://github.com/caseyweb/QUEEN-CHARITY.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
     "postinstall": "npx puppeteer@latest install --y"
   },
   "author": "CASEYRHODES",
@@ -76,10 +76,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caseyweb/QUEEN_CHARITY.git"
+    "url": "git+https://github.com/caseyweb/QUEEN-CHARITY.git"
   },
   "bugs": {
-    "url": "https://github.com/caseyweb/QUEEN_CHARITY/issues"
+    "url": "https://github.com/caseyweb/QUEEN-CHARITY/issues"
   },
-  "homepage": "https://github.com/caseyweb/QUEEN_CHARITY#readme"
+  "homepage": "https://github.com/hakisolos/Queen_Nikka#readme"
 }
