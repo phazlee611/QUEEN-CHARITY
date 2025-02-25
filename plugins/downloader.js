@@ -1393,14 +1393,14 @@ smd(
         return await m.reply("Please provide a song name or keyword to search.");
       }
 
-      await m.react("⏳️");
+      await m.react("🫅");
 
       let videoTitle, videoUrl, videoThumbnail;
 
       if (input.startsWith("http")) {
         videoUrl = input;
         const searchResponse = await axios.get(
-          `https://api.davidcyriltech.my.id/download/ytmp3?url=free_key@maher_apis&q=${encodeURIComponent(input)}`
+          `https://apis.davidcyriltech.my.id/download/ytmp3?url=free_key@maher_apis&q=${encodeURIComponent(input)}`
         );
         const video = searchResponse.data.result[0];
         videoTitle = video.title;
@@ -1425,7 +1425,7 @@ smd(
       );
 
       const downloadResponse = await axios.get(
-        `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`
+        `https://apis.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`
       );
 
       if (downloadResponse.data.status !== 200) {
