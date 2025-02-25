@@ -7,7 +7,7 @@
 <up A simple WhatsApp User Bot Coded By CASEYRHODES 🌟</u>
 </p>
 <p align="center">
-<img src="https://files.catbox.moe/j5de8g.jpg"/>       
+<img src="https://files.catbox.moe/knhyh3.jpg"/>       
 <p align="center">
 
             
@@ -26,7 +26,7 @@
 1.𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐅𝐑𝐎𝐌 𝐒𝐄𝐑𝐕𝐄𝐑
 
 
-  <a href="https://caseywebzpair-a1c7aca7cb02.herokuapp.com/"><img title="GET-SESSION ID HERE" src="https://img.shields.io/badge/GET-SESSION ID HERE-h?color=green&style=for-the-badge&logo=nike" width="230" height="38.45"/></a></p> 
+  <a href="https://caseypair2.onrender.com"><img title="GET-SESSION ID HERE" src="https://img.shields.io/badge/GET-SESSION ID HERE-h?color=green&style=for-the-badge&logo=nike" width="230" height="38.45"/></a></p> 
 
 
 
