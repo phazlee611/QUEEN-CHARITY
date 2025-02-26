@@ -19,10 +19,10 @@ smd(
       }
 
       // Send a loading message
-      await m.send("NIKKA IS WRITING LYRICS  🎵");
+      await m.send("CHARITY IS WRITING LYRICS  🎵");
 
       // Define the API URL for fetching lyrics
-      const apiUrl = `https://api-gifted-tech.onrender.com/api/search/lyrics?query=${encodeURIComponent(query)}&apikey=gifteddevskk`;
+      const apiUrl = `https://apis.davidcyriltech.my.id/lyrics?title=${encodeURIComponent(query)}&apikey=gifteddevskk`;
       const response = await fetch(apiUrl);
 
       if (!response.ok) {
