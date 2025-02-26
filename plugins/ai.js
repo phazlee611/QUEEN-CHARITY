@@ -24,7 +24,7 @@ smd(
       const query = m.text.split(' ').slice(1).join(' ');
       if (!query) {
         return await m.send("Please provide a query, e.g., `.gpt What is life?`.");
-      }
+      } 
 
       // Send a loading message
       await m.send("..... 🤔");
@@ -892,7 +892,7 @@ smd(
       await m.send("......let her cook🤔");
 
       // Define the API URL
-      const apiUrl = `https://api.giftedtech.my.id/api/ai/blackbox?q=${encodeURIComponent(query)}&apikey=king_haki-k7gjd8@gifted_api`;
+      const apiUrl = `https://api.gurusensei.workers.dev/llama?prompt=${encodeURIComponent(query)}&apikey=king_haki-k7gjd8@gifted_api`;
       console.log(`Requesting API with URL: ${apiUrl}`); // Log the URL for debugging
 
       // Fetch the API response
@@ -1015,7 +1015,7 @@ smd(
 
       // API call
       const apiKey = "gifted"; // Replace if a different key is required
-      const url = `https://api.giftedtech.my.id/api/ai/gpt?apikey=${apiKey}&q=${encodeURIComponent(input)}`;
+      const url = `https://api.gurusensei.workers.dev/llama?prompt=${apiKey}&q=${encodeURIComponent(input)}`;
       const response = await axios.get(url);
 
       // Extract and send the result
